@@ -8,7 +8,7 @@ public class Wheel : MonoBehaviour
 
     [SerializeField] bool steerable = false;
 
-    [SerializeField][Range(0f, 10f)] float steerPower = 1;
+    [SerializeField] [Range(0f, 10f)] float steerPower = 1;
 
     [SerializeField] [Range(0f, 1f)] float surfaceFriction = 1;
 
